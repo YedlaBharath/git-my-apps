@@ -1,0 +1,24 @@
+﻿.header-class {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+}
+#imgmain {
+    float:left;
+    
+}
+.list-header {
+    height:37px;
+}
+.list-div ul li {
+    list-style-type: none;
+    padding: 25px;
+    display: inline;
+    text-decoration-line: underline;
+}
+ul li {
+    list-style-type: none;
+    padding: 25px;
+    display: inline;
+    cursor:auto;
+}
