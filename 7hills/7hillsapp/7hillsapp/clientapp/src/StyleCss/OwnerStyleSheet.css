@@ -1,0 +1,26 @@
+.input-control {
+  position: relative;
+  border: 1px solid black;
+  will-change: top, border, background-color;
+  transition: 0.5s all linear;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+.labeling-control {
+  position: relative;
+  display: flex;
+  top: -3rem;
+  left: 3rem;
+  font-weight: 400;
+  opacity: 0.5;
+  max-width: 15rem;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+.input-control:hover {
+  border: 1px solid blue;
+}
+/* .input-control:hover + .labeling-control {
+} */

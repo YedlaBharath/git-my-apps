@@ -1,0 +1,28 @@
+table {
+  position: relative;
+  min-height: 10rem;
+  width: 77%;
+}
+table thead tr {
+  position: relative;
+  width: 100%;
+  border-top: 5px solid black;
+}
+table thead tr th {
+  position: relative;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: rgb(39, 197, 39);
+  text-transform: uppercase;
+  border-right: 5px solid black;
+}
+table tbody tr td {
+  position: relative;
+  text-align: center;
+  height: 4rem;
+  width: 10rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-right: 5px solid black;
+}

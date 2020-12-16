@@ -1,0 +1,560 @@
+body {
+  font-size: 1.5rem;
+  overflow-x: hidden;
+}
+.nav-index {
+  position: fixed;
+  height: 5rem;
+  width: 100rem;
+  background-color: #ffffff;
+  z-index: 100;
+}
+.home-nav {
+  position: fixed;
+  display: flex;
+  height: 5rem;
+  max-width: 100vw;
+}
+.home-search {
+  position: fixed;
+  height: 2rem;
+  width: 5rem;
+  top: 1.7rem;
+  z-index: 100;
+  left: 67rem;
+}
+.home-nav ul li {
+  position: relative;
+  display: inline-flex;
+  margin: 0 0 0 2rem;
+  left: 1rem;
+}
+.home-info,
+.home-user,
+.home-cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 18rem;
+  justify-content: center;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.home-items-ul {
+  position: relative;
+  min-height: 2.45rem;
+  width: 17rem;
+  right: 37rem;
+  // top: 50rem;
+  left: 0.2rem;
+  z-index: 15;
+  background-color: #ffffff;
+  border: 1px solid rgb(66, 63, 63);
+  box-shadow: -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.8),
+    0.5rem -0.5rem 0.5rem rgba(0, 0, 0, 0.8);
+}
+.home-items-label {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 17rem;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  color: black;
+}
+.home-search .fa-search {
+  position: relative;
+  margin-left: 1rem;
+  top: -2.5rem;
+  left: -5rem;
+}
+.home-info label,
+.home-user label,
+.home-cart label {
+  position: relative;
+  margin-left: 0.6rem;
+  color: black;
+  top: 0.3rem;
+  cursor: pointer;
+}
+
+.home-location:hover,
+.home-search:hover,
+.home-info:hover,
+.home-user:hover,
+.home-cart:hover {
+  color: rgb(247, 141, 41);
+}
+.home-location {
+  position: relative;
+  margin: 1.5rem;
+  left: 2rem;
+  width: 10rem;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.home-location option {
+  position: relative;
+  display: flex;
+  text-align: center;
+  border: none;
+  margin: 1.7rem;
+}
+// Nav ends Here
+//login starts here
+.home-login,
+.home-signup {
+  position: absolute;
+  display: none;
+  height: 27rem;
+  width: 30rem;
+  left: 37rem;
+  background-color: royalblue;
+  z-index: 15;
+  opacity: 0.3;
+}
+.home-login:hover,
+.home-signup:hover {
+  opacity: 1;
+}
+.name-h2 {
+  position: relative;
+  margin-top: 2rem;
+}
+.name-h2:hover {
+  color: rgb(247, 141, 41);
+}
+.login-form,
+.signup-form {
+  position: relative;
+  margin: 0 2rem 0 2rem;
+  top: 3rem;
+}
+.submit-div {
+  position: relative;
+  left: 8rem;
+  width: 10rem;
+}
+.signup-div {
+  position: relative;
+  top: 3rem;
+}
+// Main Data starts here
+.home-maindata {
+  position: relative;
+  left: 0;
+  top: 6rem;
+  background-color: rgb(7, 7, 26);
+  height: 25rem;
+}
+//Home Side Span starts here
+.side-span {
+  position: relative;
+  height: 40rem;
+  max-width: 30rem;
+}
+// .home-side-span {
+//   position: relative;
+//   display: block;
+//   height: 30rem;
+//   max-width: 20rem;
+//   background-color: rgb(7, 7, 26);
+// }
+.home-side-span {
+  position: relative;
+  height: 43rem;
+  max-width: 20rem;
+  left: 6rem;
+  top: 6rem;
+  background-color: rgb(37, 37, 94);
+  box-shadow: 5px 10px rgb(148, 126, 126);
+}
+.side-span-items,
+.side-span-items-1,
+.side-span-items-2,
+.side-span-items-3 {
+  position: relative;
+  display: flex;
+  top: 3rem;
+  margin-bottom: 3rem;
+  height: 7rem;
+  background-color: #ffffff;
+  justify-content: center;
+}
+.item-pic,
+.item-pic-1,
+.item-pic-2,
+.item-pic-3 {
+  position: relative;
+  display: flex;
+  color: #ffffff;
+  background-color: rgb(204, 76, 26);
+  top: 15%;
+  left: 1.5rem;
+  height: 4rem;
+  width: 4rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+}
+.fa-fire,
+.fa-trophy,
+.fa-leaf,
+.fa-cutlery {
+  position: relative;
+  display: flex;
+  font-weight: 800;
+  font-size: 1.8rem;
+  transition: transform 300ms cubic-bezier(0.445, 0.3, 0.515, 0.955);
+}
+.item-name,
+.item-name-1,
+.item-name-2,
+.item-name-3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 3rem;
+  justify-content: center;
+  cursor: pointer;
+}
+.item-name label,
+.item-name-1 label,
+.item-name-2 label,
+.item-name-3 label {
+  position: relative;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.item-options,
+.item-options-1,
+.item-options-2,
+.item-options-3 {
+  position: relative;
+  display: flex;
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 4rem;
+  top: 0;
+}
+.side-span-items:hover > .item-name label,
+.side-span-items-1:hover > .item-name-1 label,
+.side-span-items-2:hover > .item-name-2 label,
+.side-span-items-3:hover > .item-name-3 label {
+  color: rgb(204, 76, 26);
+}
+.side-span-items:hover > .item-name .item-options,
+.side-span-items-1:hover > .item-name-1 .item-options-1,
+.side-span-items-2:hover > .item-name-2 .item-options-2,
+.side-span-items-3:hover > .item-name-3 .item-options-3 {
+  color: rgb(204, 76, 26);
+}
+// .side-span-items:hover {
+//   background-color: rgb(204, 76, 26);
+// }
+.side-span-items:hover > .item-pic,
+.side-span-items-1:hover > .item-pic-1,
+.side-span-items-2:hover > .item-pic-2,
+.side-span-items-3:hover > .item-pic-3 {
+  transition: transform 300ms cubic-bezier(0.445, 0.3, 0.515, 0.955);
+  transform: scale(1.1);
+}
+.nohover {
+  pointer-events: none;
+}
+// Home Main Span starts Here
+.home-main-span {
+  position: relative;
+  height: 50rem;
+  width: 20rem;
+  left: 28rem;
+  top: -21rem;
+}
+.table-div {
+  position: relative;
+  display: grid;
+  height: 30rem;
+  width: 15rem;
+  // display: grid;
+  // grid-template-columns: auto auto auto auto;
+  // grid-gap: 10px;
+  // grid-column: 1 / span 2;
+}
+.table-img {
+  position: relative;
+  top: 5rem;
+  left: 2rem;
+  height: 20rem;
+  width: 100%;
+}
+.table-img:hover,
+.table-div:hover {
+  transform: scale(1.05);
+  transition: 300ms linear all;
+}
+.home-signp-container {
+  position: relative;
+  height: 50rem;
+  width: 50rem;
+  background-color: lightblue;
+}
+// contacts css starts here
+.contact-first-div {
+  position: relative;
+  height: 40rem;
+  width: 100vw;
+  background-color: rgb(27, 24, 24);
+}
+.contact-first-div h2 {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.2rem;
+  font-size: 3rem;
+  font-weight: 400;
+  top: 2rem;
+  text-transform: uppercase;
+}
+.contact-first-div h2:hover {
+  color: rgb(204, 76, 26);
+}
+.contact-sub-div {
+  position: relative;
+  display: inline-block;
+  height: 27rem;
+  width: 18rem;
+  background-color: rgb(43, 41, 41);
+  top: 5rem;
+  margin: 2rem;
+}
+.contact-image-div {
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+  margin: 2rem 4rem 1.2rem 4rem;
+}
+.owner-image-div {
+  // position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 5rem;
+  transition: transform 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.owner-image-div:hover {
+  transform: scale(1.3);
+  border: 2px solid rgb(6, 6, 65);
+  box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.8),
+    0.5rem -0.5rem 1rem rgba(0, 0, 0, 0.8);
+}
+.owner-name-div {
+  position: relative;
+  color: #ffffff;
+}
+.owner-email-div {
+  position: relative;
+  display: flex;
+  color: #ffffff;
+  // left: 2rem;
+}
+.fa-envelope {
+  position: relative;
+  margin: auto;
+}
+.owner-email-h4 {
+  position: relative;
+  right: 2rem;
+}
+.social-media-div {
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+  color: #ffffff;
+}
+.fa-facebook {
+  content: "\f09a";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ffffff;
+}
+.developer-first-div {
+  position: relative;
+  height: 40rem;
+  width: 100vw;
+  background-color: white;
+}
+.developer-first-div h1 {
+  text-transform: uppercase;
+  position: relative;
+  top: 2rem;
+  letter-spacing: 0.5rem;
+  font-weight: 800;
+}
+.developer-second-div {
+  position: relative;
+  display: flex;
+  height: 27rem;
+  width: 40rem;
+  top: 1rem;
+  left: 27%;
+}
+.developer-image-div {
+  position: relative;
+  height: 13rem;
+  width: 13rem;
+  left: 13rem;
+  top: 2rem;
+  background-color: yellowgreen;
+  border-radius: 8rem;
+}
+.developer-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 8rem;
+  transition: transform 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.developer-image:hover {
+  transform: scale(1.2);
+  border: 2px solid rgb(6, 6, 65);
+  box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.8),
+    0.5rem -0.5rem 1rem rgba(0, 0, 0, 0.8);
+}
+.developer-info {
+  position: relative;
+  top: 17rem;
+  height: 14rem;
+  width: 30.5rem;
+  right: 6rem;
+}
+.developer-info h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.developer-info h3 {
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.developer-info h2:hover,
+.developer-info h3:hover {
+  color: rgb(24, 206, 24);
+  cursor: pointer;
+}
+// Footer css starts here
+.footer-div {
+  position: relative;
+  display: block;
+  top: 0rem;
+  height: 10rem;
+  width: 100%;
+  background-color: rgb(34, 31, 31);
+  color: #ffffff;
+  font-size: 2rem;
+}
+.footer-backend-div {
+  position: relative;
+  top: 1rem;
+  left: 37rem;
+  height: 2rem;
+  width: 10rem;
+}
+.footer-backend-div label {
+  color: green;
+  cursor: pointer;
+}
+// BackEnd css starts here
+.cart-first-div {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  top: 0rem;
+  background-color: burlywood;
+}
+.cart-second-div {
+  position: relative;
+  min-height: 100vh;
+  width: 97%;
+  top: 2rem;
+  left: 1rem;
+  background-color: cadetblue;
+}
+.cart-sub-div {
+  position: relative;
+  top: 5rem;
+  height: 17rem;
+  width: 40rem;
+  margin: 3rem;
+  background-color: chartreuse;
+}
+.cart-total-div {
+  position: absolute;
+  background-color: chartreuse;
+  top: 5rem;
+  left: 58%;
+  min-height: 25rem;
+  width: 30rem;
+}
+.modal-main-div {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100vw;
+  top: 0rem;
+  left: 0rem;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.modal-login-main-div {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100vw;
+  top: 0rem;
+  left: 0rem;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.modal-login-sub-div {
+  position: relative;
+  height: 25rem;
+  width: 25rem;
+  top: 7rem;
+  left: 30rem;
+  background-color: #ffffff;
+}
+.modal-login-sub-div .fa-times {
+  position: relative;
+  font-size: 1.3rem;
+  left: 8rem;
+  top: 0rem;
+  cursor: pointer;
+}
+.login-user-div,
+.login-password-div {
+  left: 2rem;
+  margin-bottom: 3rem;
+}
+.login-user-label,
+.login-password-label {
+  display: flex;
+}
+.modal-sub-div {
+  position: relative;
+  height: 25rem;
+  width: 25rem;
+  top: 3rem;
+  left: 30rem;
+  background-color: #ffffff;
+}
+.modal-img-div {
+  position: relative;
+  height: 14rem;
+  width: 10rem;
+  margin: 1rem;
+}

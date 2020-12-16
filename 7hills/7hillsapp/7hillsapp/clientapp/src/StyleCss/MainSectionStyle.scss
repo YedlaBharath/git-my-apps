@@ -1,0 +1,119 @@
+.main-section-item-main-div {
+  position: relative;
+  min-height: 20rem;
+  width: 50rem;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+.main-section-item-main-card {
+  position: relative;
+  display: flex;
+  height: 14rem;
+  width: 40rem;
+  margin: 2rem;
+  border: 1px solid blue;
+}
+.main-section-item-main-card-img {
+  position: relative;
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  top: 2rem;
+  left: 2rem;
+  cursor: pointer;
+}
+.main-section-item-main-card-body {
+  position: relative;
+  left: 4rem;
+  top: 2rem;
+}
+.main-section-item-main-card-body .cart-name {
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0rem;
+}
+// .main-section-item-main-card-body .cart-price,
+// .main-section-item-main-card-body .cart-tot {
+//   position: relative;
+//   top: 1rem;
+//   font-size: 1rem;
+//   margin: 0.5rem;
+//   font-weight: 600;
+// }
+.main-section-item-main-card-btn {
+  position: relative;
+  background-color: white;
+  border: 1px solid rgb(58, 199, 58);
+  height: 4rem;
+  width: 7rem;
+  top: -3rem;
+  left: 14rem;
+}
+.main-section-item-main-card-btn:hover {
+  background-color: rgb(219, 33, 33);
+}
+.main-section-incart-items-main-div {
+  position: absolute;
+  min-height: 20rem;
+  top: 8rem;
+  width: 33rem;
+  left: 50rem;
+  border: 1px solid green;
+}
+.cart-main-div {
+  position: relative;
+  height: 10rem;
+  width: 33rem;
+}
+.cart-img-div {
+  position: relative;
+  height: 7rem;
+  width: 7rem;
+  top: 1.5rem;
+  left: -12rem;
+}
+.cart-main-div h3 {
+  position: relative;
+  font-size: 1.3rem;
+  top: -5rem;
+}
+.cart-main-div h4 {
+  position: relative;
+  //   font-size: 1rem;
+  top: -5rem;
+}
+.cart-main-div .btnPlus {
+  position: relative;
+  top: -10rem;
+  left: 14rem;
+}
+.cart-main-div label {
+  position: relative;
+  top: -7.5rem;
+  left: 12.5rem;
+}
+.cart-main-div .btnMinus {
+  position: relative;
+  top: -5rem;
+  left: 11rem;
+}
+.cart-main-div .btnMinus:hover,
+.cart-main-div .btnPlus:hover {
+  background-color: rgb(59, 196, 59);
+}
+.btnDelete {
+  position: relative;
+  top: -5rem;
+  background-color: rgb(223, 50, 50);
+  left: -3rem;
+}
+.btnProceed {
+  position: relative;
+  width: 8rem;
+  background-color: rgb(50, 204, 50);
+  margin: 2rem;
+}

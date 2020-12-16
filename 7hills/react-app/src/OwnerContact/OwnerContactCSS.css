@@ -1,0 +1,44 @@
+.main-contact {
+  position: relative;
+  height: 40rem;
+  width: 100%;
+  background-color: greenyellow;
+}
+.element-contact {
+  position: relative;
+  display: flex;
+  height: 15rem;
+  width: 45rem;
+  top: 7rem;
+  left: 30rem;
+  background-color: white;
+}
+.element-contact-img-container {
+  position: relative;
+  display: flex;
+  height: 90%;
+  width: 13rem;
+  margin: 1rem 1rem 1rem 1rem;
+  background-color: greenyellow;
+  border-radius: 7rem;
+  align-items: center;
+  text-align: center;
+}
+.contact-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7rem;
+  /* transition: 0.5 all linear; */
+}
+.contact-img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: -0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.8),
+    0.5rem -0.5rem 2rem rgba(0, 0, 0, 0.8);
+}
+.contact-name {
+  position: absolute;
+  display: flex;
+  top: 14rem;
+  left: 2rem;
+}

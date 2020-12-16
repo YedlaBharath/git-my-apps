@@ -1,0 +1,135 @@
+.items-form-first-div {
+  position: relative;
+  min-height: 50rem;
+  width: 100vw;
+  background-color: lightblue;
+}
+.items-form-subfirst-div {
+  position: relative;
+  min-height: 95%;
+  // left: 1rem;
+  width: 25rem;
+  background-color: lightcoral;
+}
+.items-form-subsecond-div {
+  position: absolute;
+  min-height: 96.5%;
+  top: 2.9rem;
+  left: 25rem;
+  width: 78rem;
+  background-color: lightcoral;
+}
+.items-form-div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.menu-form-first-div {
+  position: relative;
+  min-height: 50rem;
+  top: 3rem;
+  width: 100vw;
+  background-color: lightblue;
+}
+.menu-form-subfirst-div {
+  position: relative;
+  min-height: 95%;
+  width: 25rem;
+  background-color: lightcoral;
+}
+.menu-form-div {
+  position: relative;
+  height: 25rem;
+  width: 20rem;
+}
+.menu-form-subsecond-div {
+  position: relative;
+  min-height: 96.5%;
+  top: -22rem;
+  left: 20rem;
+  width: 78rem;
+  background-color: lightcoral;
+}
+
+.owner-form-second-div {
+  position: relative;
+  min-height: 50rem;
+  top: 3rem;
+  width: 100vw;
+  background-color: lightblue;
+}
+.owner-form-subfirst-div {
+  position: relative;
+  min-height: 95%;
+  // left: 1rem;
+  width: 25rem;
+  background-color: lightcoral;
+}
+.owner-form-subsecond-div {
+  position: absolute;
+  min-height: 96.5%;
+  top: 2.9rem;
+  left: 25rem;
+  width: 78rem;
+  background-color: lightcoral;
+}
+.owner-form-div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.items-main-div {
+  position: relative;
+  display: inline-block;
+  margin: 2rem;
+  height: 10rem;
+  width: 10rem;
+  background-color: rosybrown;
+}
+//
+
+.vegsnacks-form-main-div {
+  position: relative;
+  min-height: 100rem;
+  width: 100%;
+  background-color: rebeccapurple;
+  margin-top: 3rem;
+}
+.vegsnacks-form-sub-div {
+  position: relative;
+  min-height: 30rem;
+  width: 30rem;
+}
+.vegsnacks-from-div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.card {
+  position: relative;
+  height: 36rem;
+  width: 25rem;
+  align-items: center;
+  justify-content: center;
+}
+.card-img-top {
+  position: relative;
+  height: 10rem;
+  width: 15rem;
+}
+.card-body {
+  position: relative;
+}
+.form-group {
+  position: relative;
+  height: 4rem;
+  width: 20rem;
+}
+.form-group label,
+.form-group .form-control {
+  position: relative;
+}
+.btn-success {
+  position: relative;
+  margin: 1rem;
+}
